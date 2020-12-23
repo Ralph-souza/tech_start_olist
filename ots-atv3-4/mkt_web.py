@@ -1,5 +1,5 @@
 from flask import Flask
-from marketplaces import
+from marketplaces import Marketplaces
 
 
 app = Flask(__name__)
