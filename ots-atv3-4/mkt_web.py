@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     h1 = "<h1>Marketplaces</h1>"
-    ol = '''
+    div = '''
             <div>
                 <label for="marketplace">Marketplace choices</label>
                 <select name="marketplace" required>
@@ -17,7 +17,7 @@ def index():
             </div>
         '''
 
-    return f'{h1} {ol}'
+    return f'{h1} {div}'
 
 
 app.run()
